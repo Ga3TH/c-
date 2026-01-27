@@ -49,10 +49,41 @@ namespace Matrice
             {
                 for (int j = 0; j < ordre; j++)
                 {
-                    tabScalaire[i, j] = coefficients[i, j] + m;
+                    tabScalaire[i, j] = coefficients[i, j] + m.coefficients[i,j];
                 }
             }
             return new ClasseMatrice(tabScalaire);
+        }
+
+        public ClasseMatrice Soustraction(ClasseMatrice m)
+        {
+
+            int[,] tabScalaire = new int[ordre, ordre];
+            for (int i = 0; i < ordre; i++)
+            {
+                for (int j = 0; j < ordre; j++)
+                {
+                    tabScalaire[i, j] = coefficients[i, j] - m.coefficients[i, j];
+                }
+            }
+            return new ClasseMatrice(tabScalaire);
+        }
+        
+        public override string ToString()
+        {
+            StringBuilder Matrice = new StringBuilder();
+
+            for (int i = 0; i < ordre; i++)
+            {
+                for (int j = 0; j < ordre; j++)
+                {
+                    Matrice.Append(coefficients[i, j]);
+                    Matrice.Append("\t");
+                }
+                Matrice.AppendLine();
+            }
+
+            return Matrice.ToString();
         }
     }   
 }
