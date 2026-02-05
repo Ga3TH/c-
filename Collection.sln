@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Complexe", "Complexe\Comple
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrice", "Matrice\Matrice.csproj", "{37B339DF-1858-40B8-881B-55E109AED270}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalogue", "Catalogue\Catalogue.csproj", "{D971EC61-37F0-4232-98DE-BAE81D18D27F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{37B339DF-1858-40B8-881B-55E109AED270}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37B339DF-1858-40B8-881B-55E109AED270}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37B339DF-1858-40B8-881B-55E109AED270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D971EC61-37F0-4232-98DE-BAE81D18D27F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D971EC61-37F0-4232-98DE-BAE81D18D27F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D971EC61-37F0-4232-98DE-BAE81D18D27F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D971EC61-37F0-4232-98DE-BAE81D18D27F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -61,6 +61,20 @@ namespace TP20
 
             }
 
+            public Complexe ComparerModule(Complexe nombre)
+            {
+                if (this.GetModule() < nombre.GetModule())
+                {
+                    return nombre;
+                }
+                if (this.GetModule() > nombre.GetModule())
+                {
+                    return this;
+                }
+                return null;
+                
+            }
+
             public override string ToString()
             {
                 string chaine = string.Empty;
