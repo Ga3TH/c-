@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{89E29000-2472-4E9E-AD1C-EB0F79BA26B2}</ProjectGuid>
+    <ProjectGuid>{37608594-DD46-4848-B9D9-B2FB592DB3C8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>heritage</RootNamespace>
-    <AssemblyName>heritage</AssemblyName>
+    <RootNamespace>Interface_Dynamique</RootNamespace>
+    <AssemblyName>Interface_Dynamique</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="utilitire.cs" />
-    <Compile Include="vehicule.cs" />
-    <Compile Include="tourisme.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

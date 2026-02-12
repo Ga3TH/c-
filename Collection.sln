@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrice", "Matrice\Matrice.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalogue", "Catalogue\Catalogue.csproj", "{D971EC61-37F0-4232-98DE-BAE81D18D27F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "heritage", "heritage\heritage.csproj", "{89E29000-2472-4E9E-AD1C-EB0F79BA26B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interface graphique", "interface graphique\interface graphique.csproj", "{66D24AA0-0BB0-4DC1-B6A9-E99C5D248027}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{D971EC61-37F0-4232-98DE-BAE81D18D27F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D971EC61-37F0-4232-98DE-BAE81D18D27F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D971EC61-37F0-4232-98DE-BAE81D18D27F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89E29000-2472-4E9E-AD1C-EB0F79BA26B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89E29000-2472-4E9E-AD1C-EB0F79BA26B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89E29000-2472-4E9E-AD1C-EB0F79BA26B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89E29000-2472-4E9E-AD1C-EB0F79BA26B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66D24AA0-0BB0-4DC1-B6A9-E99C5D248027}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66D24AA0-0BB0-4DC1-B6A9-E99C5D248027}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66D24AA0-0BB0-4DC1-B6A9-E99C5D248027}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66D24AA0-0BB0-4DC1-B6A9-E99C5D248027}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
