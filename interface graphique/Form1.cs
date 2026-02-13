@@ -21,25 +21,25 @@ namespace interface_graphique
 
         private void btnAfficherEditeur_Click(object sender, EventArgs e)
         {
-            afficherEditeur afficher = new afficherEditeur();
-            afficher.ShowDialog();
+            afficherEditeur afficherEditeur = new afficherEditeur();
+            afficherEditeur.ShowDialog();
         }
 
         private void btnAddEditeur_Click(object sender, EventArgs e)
         {
-            afficherEditeur AjoutEdit = new afficherEditeur();
+            AjoutEdit AjoutEdit = new AjoutEdit();
             AjoutEdit.ShowDialog();
         }
 
         private void btnSupression_Click(object sender, EventArgs e)
         {
-            afficherEditeur SupprimerTitre = new afficherEditeur();
+            AjoutTitre SupprimerTitre = new AjoutTitre();
             SupprimerTitre.ShowDialog();
         }
 
         private void btnAjoutTitre_Click(object sender, EventArgs e)
         {
-            afficherEditeur AjoutTitre = new afficherEditeur();
+            AjoutTitre AjoutTitre = new AjoutTitre();
             AjoutTitre.ShowDialog();
         }
     }
